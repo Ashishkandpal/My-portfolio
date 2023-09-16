@@ -1,0 +1,15 @@
+#bg-dropdown-container {
+  position: fixed;
+  right: 2rem;
+  top: 2rem;
+}
+
+#bg-changer {
+  border-radius: 15px;
+  font-size: 1.1rem;
+  padding: 0.2rem;
+  outline: none;
+  border: none;
+  background: transparent;
+  color: inherit;
+}
