@@ -16,6 +16,7 @@ const App = () => {
   const bgHandler = (val) => {
     setBgChanger(val);
   };
+
   return (
     <Router>
       <Nav />

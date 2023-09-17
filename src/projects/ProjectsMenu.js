@@ -15,7 +15,7 @@ export default function ProjectsMenu() {
       <div key={index} className={`project-sub-container-${index + 1}`}>
         <h3>{project.title}</h3>
         <img src={project.image} alt={project.title}></img>
-        <div>{project.description}</div>
+        <div className="project-desc">{project.description}</div>
         <div className="link-container">
           <a href={project.github} target="_blank" rel="noopener noreferrer">
             GITHUB

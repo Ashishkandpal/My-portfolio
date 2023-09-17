@@ -14,3 +14,9 @@
   color: inherit;
   cursor: pointer;
 }
+
+@media (max-width: 578px) {
+  #bg-changer {
+    font-size: 0.8rem;
+  }
+}

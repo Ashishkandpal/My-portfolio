@@ -13,7 +13,7 @@ const BackgroundDropdown = ({ bgHandler }) => {
   return (
     <div id="bg-dropdown-container">
       <p id="bg-changer" onClick={() => valHandler(randomNumGenerator)}>
-        Random Theme
+        Theme
       </p>
     </div>
   );
